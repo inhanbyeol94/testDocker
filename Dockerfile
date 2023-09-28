@@ -1,4 +1,5 @@
-FROM node:18
+# 서버 구성
+FROM node:20
 RUN mkdir -p /var/app
 WORKDIR /var/app
 COPY . .
