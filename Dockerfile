@@ -1,5 +1,5 @@
 # 서버 구성
-FROM node:latest
+FROM node:18
 RUN mkdir -p /var/app
 WORKDIR /var/app
 COPY . .
