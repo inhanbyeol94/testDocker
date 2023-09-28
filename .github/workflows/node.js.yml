@@ -23,7 +23,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-  test:
+      - name: Run tests
+        run: npm run test
+
+      - name: Run tests
+        run: npm run test
+
+  docker-push:
 
     runs-on: ubuntu-latest
 
@@ -36,5 +42,12 @@ jobs:
         with:
           node-version: '18.x'
 
+      - name: Install dependencies
+        run: npm install
+
       - name: Run tests
         run: npm run test
+
+      - name: Run tests
+        run: npm run test
+
