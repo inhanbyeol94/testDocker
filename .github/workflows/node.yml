@@ -33,5 +33,5 @@ jobs:
     - name: Nest Build
     - run: npm  build --if-present
 
-    - name: Run tests
+    - name: Run testsE
     - run: npm test
