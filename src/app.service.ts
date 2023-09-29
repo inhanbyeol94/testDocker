@@ -6,4 +6,8 @@ export class AppService {
     return 'Hello World!!';
     //TEST
   }
+
+  getTest(): string {
+    return '박제이 사랑해!';
+  }
 }
